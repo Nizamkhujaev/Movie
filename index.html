@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You tube</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <div class="video-wrapper">
+            <video src="./assets/kung-fu.mp4" width="500" height="250" id="video"></video>
+            <video src="./assets/add.mp4"  width="500" height="250" id="add-video"></video>
+        </div>
+
+        <div class="buttons-holder">
+            <img src="./images/play-button.svg" id="play-btn" width="25" height="25" alt="">
+            <img src="./images/pause.svg" id="pause-btn" width="25" height="25" alt="">
+
+            <div class="time">
+                <span id="current-video-time">--:--</span>
+                <input type="range" id="rewind-input" min="0" max="100">
+                <span id="full-video-time">--:--</span>
+            </div>
+
+
+            <img src="./images/fullscreen.svg" width="20" height="20" alt="" class="fullscreen">
+
+
+            <div class="volume">
+                <img src="./images/volume-up-interface-symbol-1.svg" width="20" height="20" alt="" class="volume-icon">
+                <input type="range" id="volume-input" min="0" max="100">
+            </div>
+
+        </div>
+
+
+
+
+
+
+    </div>
+    
+
+    <script src="./main.js"></script>
+</body>
+</html>
